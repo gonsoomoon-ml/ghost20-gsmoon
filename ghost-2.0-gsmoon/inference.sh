@@ -1,0 +1,2 @@
+# python inference.py --source ./examples/images/gsmoon-newyork.jpg --target ./examples/images/elon.jpg --save_path result.png
+python inference.py --source ./examples/images/seongjin.jpg --target ./examples/images/elon.jpg --save_path result.png

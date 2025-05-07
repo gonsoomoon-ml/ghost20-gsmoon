@@ -1,0 +1,33 @@
+# 핵심 의존성 패키지들 (의존성 충돌 해결용)
+numpy==1.24.4  # 대부분의 패키지와 호환되는 버전
+pillow==10.2.0  # facenet-pytorch와 호환
+
+# 원본 패키지 목록 (버전 호환성 조정)
+pytorch-lightning==2.5.0.post0
+matplotlib==3.7.3  # 다운그레이드 (Pillow 버전과 호환)
+scikit-image==0.21.0  # 다운그레이드 (호환성 유지)
+lpips==0.1.4
+imgaug==0.4.0
+pytorch-msssim==1.0.0
+h5py==3.12.1
+transformers==4.48.2
+kornia==0.8.0
+chumpy==0.70
+wandb==0.19.6
+lightning==2.5.0.post0
+omegaconf==2.3.0
+adabound==0.0.5
+torchmetrics==1.6.1
+torchfile==0.1.0
+mediapipe==0.10.21
+einops==0.8.0
+insightface==0.7.3
+onnx==1.17.0
+onnxruntime==1.20.1
+# simple-lama-inpainting의 소스 버전 사용 (pip 설치 대신)
+# simple-lama-inpainting==0.1.2  # 주석 처리됨, 아래 대체 방법 사용
+huggingface-hub==0.25.0
+diffusers==0.24.0
+
+# simple-lama-inpainting 대체 설치 (GitHub에서 직접 설치)
+git+https://github.com/vietanhdev/stable-diffusion-webui-lama-cleaner.git
