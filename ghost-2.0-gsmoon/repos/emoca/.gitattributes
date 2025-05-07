@@ -1,0 +1,4 @@
+*.gif filter=lfs diff=lfs merge=lfs -text
+gdl_apps/EMOCA/EMOCA_gif_sparse_det_rec.gif filter=lfs diff=lfs merge=lfs -text
+gdl_apps/EmotionRecognition/ResNet50.zip filter=lfs diff=lfs merge=lfs -text
+dl_apps/EmotionRecognition/ResNet50/checkpoints/deca-epoch=01-val_loss_total/dataloader_idx_0=1.27607644.ckpt filter=lfs diff=lfs merge=lfs -text
